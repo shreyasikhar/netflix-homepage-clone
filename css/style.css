@@ -189,6 +189,10 @@ img {
   text-align: center;
 }
 
+#tab-3-content .scrollable {
+  overflow-x: auto;
+}
+
 .table {
   width: 100%;
   margin-top: 2rem;
@@ -362,6 +366,10 @@ img {
 }
 
 @media (max-width: 700px) {
+  .showcase-content {
+    margin-top: 2.5rem;
+  }
+
   .showcase::after {
     box-shadow: inset 80px 80px 250px #000000, inset -80px -80px 250px #000000;
   }
